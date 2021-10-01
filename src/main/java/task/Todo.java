@@ -1,7 +1,5 @@
 package task;
 
-import task.Task;
-
 public class Todo extends Task
 {
 
@@ -10,7 +8,7 @@ public class Todo extends Task
     }
 
     public String fileForm() {
-        return "T | " + this.getStatusIcon() + " | " + this.description + "\n";
+        return "T / " + this.getStatusIcon() + " / " + this.description + "\n";
     }
 
     public String toString() {
